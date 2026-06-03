@@ -1,18 +1,29 @@
 {
-  "name": "automata-lab",
-  "version": "0.1.0",
+  "bugs": {
+    "url": "https://github.com/baditaflorin/automata-lab/issues"
+  },
+  "dependencies": {},
   "description": "Conway's Life, reaction-diffusion, and Lenia — mesmerizing cellular automata in your browser.",
-  "type": "module",
-  "private": false,
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.0.0",
+    "vitest": "4.1.0"
+  },
+  "engines": {
+    "node": "\u003e=22"
+  },
   "homepage": "https://baditaflorin.github.io/automata-lab/",
+  "license": "MIT",
+  "name": "automata-lab",
+  "overrides": {},
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/baditaflorin/automata-lab.git"
   },
-  "bugs": {
-    "url": "https://github.com/baditaflorin/automata-lab/issues"
-  },
-  "license": "MIT",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "bash scripts/build-pages.sh",
@@ -25,15 +36,6 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
-  "devDependencies": {
-    "@types/node": "^22.10.0",
-    "jsdom": "^26.0.0",
-    "prettier": "^3.7.4",
-    "typescript": "^5.9.3",
-    "vite": "^7.0.0",
-    "vitest": "^2.1.0"
-  },
-  "engines": {
-    "node": ">=22"
-  }
+  "type": "module",
+  "version": "0.1.0"
 }
